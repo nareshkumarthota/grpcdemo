@@ -3,11 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"grpcdemo/pb"
 	"io"
 	"log"
 	"os"
 
+	"github.com/nareshkumarthota/grpcdemo/pb"
 	"golang.org/x/net/context"
 
 	"google.golang.org/grpc"

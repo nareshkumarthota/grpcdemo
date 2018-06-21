@@ -3,11 +3,11 @@ package main
 import (
 	"errors"
 	"fmt"
-	"grpcdemo/pb"
 	"io"
 	"log"
 	"net"
 
+	"github.com/nareshkumarthota/grpcdemo/pb"
 	"google.golang.org/grpc/metadata"
 
 	"google.golang.org/grpc"

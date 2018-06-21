@@ -1,8 +1,6 @@
 package main
 
-import (
-	"grpcdemo/pb"
-)
+import "github.com/nareshkumarthota/grpcdemo/pb"
 
 var employees = []pb.Employee{
 	pb.Employee{
